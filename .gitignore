@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Data and tokenized binary files
+data/
+data_v2/
+data_v3/
+*.bin
+
+# Model checkpoints and weights
+checkpoints/
+checkpoints_v2/
+checkpoints_v3/
+*.pt
+*.pth
+*.safetensors
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+Thumbs.db
